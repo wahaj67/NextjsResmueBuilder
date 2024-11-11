@@ -28,7 +28,7 @@ export default function ResumeBuilder() {
   const skillsList = skills.split(",").map((item) => item.trim());
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-black p-4">
+    <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-indigo-700 to-green-400 p-4">
       <div className="w-full max-w-[95%] md:max-w-[60%] h-full md:h-[95%] flex flex-col bg-white rounded-lg items-center shadow-md p-4 overflow-y-auto">
         {!submitted ? (
           <form onSubmit={handleSubmit} className="flex flex-col items-center space-y-4 w-full">
